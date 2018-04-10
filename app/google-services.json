@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "954903834482",
+    "firebase_url": "https://personalized-multinationary.firebaseio.com",
+    "project_id": "personalized-multinationary",
+    "storage_bucket": "personalized-multinationary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954903834482:android:1176dc192ea5416b",
+        "android_client_info": {
+          "package_name": "imi.softengineer.personalizedmultitionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954903834482-27frlg9u0h0i890p84uicupjuf86mr9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "imi.softengineer.personalizedmultitionary",
+            "certificate_hash": "09f23f2606ea779dc2e3a5a5b30a4c24ea1f1b24"
+          }
+        },
+        {
+          "client_id": "954903834482-qj9chmu8oaf3f0r1lq79b43so8d94v3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOM4h4FDl1leYfxCDXbJyWFccQ2MboxyQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954903834482-qj9chmu8oaf3f0r1lq79b43so8d94v3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954903834482:android:2b6aee231490eec6",
+        "android_client_info": {
+          "package_name": "imi.lict.materialshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954903834482-4dev74ik9jr257pnggbvfsjj7g0pu4qv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "imi.lict.materialshare",
+            "certificate_hash": "09f23f2606ea779dc2e3a5a5b30a4c24ea1f1b24"
+          }
+        },
+        {
+          "client_id": "954903834482-qj9chmu8oaf3f0r1lq79b43so8d94v3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOM4h4FDl1leYfxCDXbJyWFccQ2MboxyQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954903834482-qj9chmu8oaf3f0r1lq79b43so8d94v3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954903834482:android:8528c727f3156e12",
+        "android_client_info": {
+          "package_name": "imi.softengineering.personalizedmultitionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954903834482-nvi43kuh9jqfut5l6j4v63jihbmng8b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "imi.softengineering.personalizedmultitionary",
+            "certificate_hash": "09f23f2606ea779dc2e3a5a5b30a4c24ea1f1b24"
+          }
+        },
+        {
+          "client_id": "954903834482-qj9chmu8oaf3f0r1lq79b43so8d94v3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOM4h4FDl1leYfxCDXbJyWFccQ2MboxyQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954903834482-qj9chmu8oaf3f0r1lq79b43so8d94v3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954903834482:android:9dc00e229fe38993",
+        "android_client_info": {
+          "package_name": "imi.softenineer.personalizedmultitionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954903834482-n7i3nlbl5c75hlrpf367v55s081daqpr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "imi.softenineer.personalizedmultitionary",
+            "certificate_hash": "09f23f2606ea779dc2e3a5a5b30a4c24ea1f1b24"
+          }
+        },
+        {
+          "client_id": "954903834482-qj9chmu8oaf3f0r1lq79b43so8d94v3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOM4h4FDl1leYfxCDXbJyWFccQ2MboxyQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954903834482-qj9chmu8oaf3f0r1lq79b43so8d94v3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="imi.softengineer.personalizedmultitionary.HelpActivity">
+
+    <include
+        android:id="@+id/help_toolbar"
+        layout="@layout/app_bar">
+    </include>
+
+    <TextView
+        android:id="@+id/txtViewHelp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:padding="25dp"
+        android:text="The app will take three input and save these value to its database. Remember you can not make empty field for word. You can generate a dic for whole word which was saved database."
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+</LinearLayout>

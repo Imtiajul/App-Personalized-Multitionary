@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    tools:context="imi.softengineer.personalizedmultitionary.SignInActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lagout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="15dp"
+            android:text="@string/sign_in"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorBlack"
+
+            >
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:textColorHint="@color/colorBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lagout"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/ic_action_name"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="16dp" />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorBlack"
+            >
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edtEmail"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/ic_action_password"
+                android:hint="Password"
+                android:inputType="textWebPassword"
+                android:padding="16dp"
+                android:textColorHint="@color/colorBlack" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btLogin"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/background_login_button"
+        android:onClick="butSignIn"
+        android:text="@string/sign_in"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/btLogin"
+        android:layout_below="@+id/btLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Forget password?"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:theme="@style/PrimaryFlatButton" />
+
+    <TextView
+        android:id="@+id/txtButRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/btSignOut"
+        android:layout_alignLeft="@+id/btLogin"
+        android:layout_marginTop="5dp"
+        android:text="REGISTER HERE."
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txtButRegister"
+        android:layout_below="@id/txtButRegister"
+        android:layout_marginTop="5dp"
+        android:onClick="skip"
+        android:text="SKIP"
+        android:textColor="#248f24"
+        android:textSize="11dp"
+        android:textStyle="bold" />
+</RelativeLayout>

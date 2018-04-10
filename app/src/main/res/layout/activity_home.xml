@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="imi.softengineer.personalizedmultitionary.HomeActivity">
+
+
+    <!--<android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    </android.support.design.widget.AppBarLayout>-->
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar"></include>
+
+    <!--<android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </android.support.v7.widget.Toolbar>-->
+
+    <include
+        android:id="@+id/home_content"
+        layout="@layout/content_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appbar" />
+
+ <!--   <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_content" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:backgroundTint="#ff1da1f2"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClifBtonCreatetion"
+        app:srcCompat="@mipmap/ic_change_history" />-->
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        app:fab_colorNormal="#333333"
+        app:fab_label=""
+        app:fab_showShadow="true"
+        app:menu_backgroundColor="@android:color/transparent"
+        app:menu_colorNormal="#d613559c"
+        app:menu_colorPressed="#444444"
+        app:menu_fab_size="normal"
+        app:menu_labels_colorNormal="@color/colorBackground"
+        app:menu_labels_colorPressed="#F57F17"
+        app:menu_labels_cornerRadius="3dp"
+        app:menu_labels_maxLines="-1"
+        app:menu_labels_position="left"
+        app:menu_labels_textColor="@color/colorText"
+        app:menu_openDirection="up">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floatingActionItem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="generateDicFile"
+            android:src="@drawable/ic_build_dic_file"
+            app:fab_colorNormal="#0091EA"
+            app:fab_label="Generate DIC File"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floatingActionItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="fBtonDelete"
+            android:src="@drawable/delete_icon"
+            app:fab_colorNormal="#0091EA"
+            app:fab_label="Delete"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floatingActionItem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="fBtonCreate"
+            android:src="@drawable/create_icon"
+            app:fab_colorNormal="#0091EA"
+            app:fab_label="Add"
+            app:fab_size="mini" />
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</RelativeLayout>
